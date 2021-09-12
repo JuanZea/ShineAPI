@@ -16,9 +16,9 @@ model Film {
   updatedAt     DateTime @updatedAt
   referenceUrl  String
   img           String?
-  trailer       String?
+  trailer       String
   title         String   @db.VarChar(255)
-  description   String     @db.Text
+  description   String   @db.Text
   director      String?
   year          String?
   duration      String?
