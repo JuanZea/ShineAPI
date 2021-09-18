@@ -6,7 +6,42 @@ const prisma = new PrismaClient();
 module.exports = {
 
   async index(req: Request, res: Response) {
-    const films = await prisma.film.findMany();
+
+    let films;
+    let title = req.query.contains || '';
+
+      console.log(req.query.contains)
+
+    if (req.query.contains) {
+
+      films = await prisma.film.findMany({
+        where: {
+          OR: [
+            {
+              title: {
+                contains: title.toString()
+              }
+            },
+            {
+              description: {
+                contains: title.toString()
+              }
+            },
+            {
+              director: {
+                contains: title.toString()
+              }
+            },
+            {
+              year: {
+                contains: title.toString()
+              }
+            }
+          ],
+        }
+      });
+
+    } else films = await prisma.film.findMany();
 
     let response = {
       status: 200,
