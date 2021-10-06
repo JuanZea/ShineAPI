@@ -79,4 +79,28 @@ module.exports = {
     res.status(201).json(response);
   },
 
+  async update(req: Request, res: Response) {
+    const film = await prisma.film.update({
+      where: { id: parseInt(req.params.id) },
+      data: req.body,
+    });
+
+    let response = {
+      status: 200,
+      data: film,
+    }
+
+    res.status(200).json(response);
+  },
+
+  async delete(req: Request, res: Response) {
+    const film = await prisma.film.delete({
+      where: { id: parseInt(req.params.id) },
+    })
+
+    let response = { status: 200 }
+
+    res.status(response.status).json(response);
+  },
+
 }

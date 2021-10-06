@@ -18,7 +18,6 @@ async function main() {
             director: 'Sam Raimi',
             year: '2002',
             duration: '2h 1m',
-            stars: 0,
             trailer: 'https://www.youtube.com/embed/O7zvehDxttM'
         },
     })
@@ -38,7 +37,6 @@ async function main() {
             director: 'Ridley Scott',
             year: '2000',
             duration: '2h 35m',
-            stars: 0,
             trailer: 'https://www.youtube.com/embed/AxQajgTyLcM'
         },
     })
@@ -58,7 +56,6 @@ async function main() {
       director: 'David Yarovesky',
       year: '2019',
       duration: '1h 31m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/g6eB0JT1DI4'
     },
   })
@@ -78,7 +75,6 @@ await prisma.film.upsert({
       director: 'Rupert Sanders',
       year: '2017',
       duration: '1h 47m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/q7Tm73m0VZs'
     },
   })
@@ -98,7 +94,6 @@ await prisma.film.upsert({
       director: 'Ridley Scott',
       year: '1982',
       duration: '1h 57m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/eogpIG53Cis'
     },
   })
@@ -118,7 +113,6 @@ await prisma.film.upsert({
       director: 'Hampton Fancher',
       year: '2017',
       duration: '2h 44m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/gCcx85zbxz4'
     },
   })
@@ -138,7 +132,6 @@ await prisma.film.upsert({
       director: 'James Cameron',
       year: '1997',
       duration: '3h 14m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/CHekzSiZjrY'
     },
   })
@@ -158,7 +151,6 @@ await prisma.film.upsert({
       director: 'Jean-Jacques Annaud',
       year: '1997',
       duration: '2h 16m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/TWkrRTPtKss'
     },
   })
@@ -178,7 +170,6 @@ await prisma.film.upsert({
       director: 'David Fincher',
       year: '1995',
       duration: '2h 7m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/SpKbZ_3zlb0'
     },
   })
@@ -198,7 +189,6 @@ await prisma.film.upsert({
       director: 'Alan Ball',
       year: '1999',
       duration: '2h 2m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/3ycmmJ6rxA8'
     },
   })
@@ -218,7 +208,6 @@ await prisma.film.upsert({
       director: 'Quentin Tarantino',
       year: '1994',
       duration: '2h 34m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/tGpTpVyI_OQ'
     },
   })
@@ -238,7 +227,6 @@ await prisma.film.upsert({
       director: 'Joe Russo',
       year: '2018',
       duration: '2h 29m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/6ZfuNTqbHE8'
     },
   })
@@ -258,7 +246,6 @@ await prisma.film.upsert({
       director: 'James Cameron',
       year: '2009',
       duration: '2h 42m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/5PSNL1qE6VY'
     },
   })
@@ -278,7 +265,6 @@ await prisma.film.upsert({
       director: 'Rob Cohen',
       year: '2001',
       duration: '1h 46m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/ZsJz2TJAPjw'
     },
   })
@@ -298,7 +284,6 @@ await prisma.film.upsert({
       director: 'Francis Ford Coppola',
       year: '1972',
       duration: '2h 55m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/1x0GpEZnwa8'
     },
   })
@@ -318,7 +303,6 @@ await prisma.film.upsert({
       director: 'Martin Scorsese',
       year: '2010',
       duration: '2h 18m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/qdPw9x9h5CY'
     },
   })
@@ -338,7 +322,6 @@ await prisma.film.upsert({
       director: 'Terry Gilliam',
       year: '1995',
       duration: '2h 9m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/YxLbHHYGzkg'
     },
   })
@@ -358,7 +341,6 @@ await prisma.film.upsert({
       director: 'Marc Forster',
       year: '2013',
       duration: '1h 56m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/slfrrjPndV4'
     },
   })
@@ -378,7 +360,6 @@ await prisma.film.upsert({
       director: 'Joe Pytka',
       year: '1996',
       duration: '1h 28m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/wYbXWzef1RM'
     },
   })
@@ -398,7 +379,6 @@ await prisma.film.upsert({
       director: 'George Lucas',
       year: '2005',
       duration: '2h 20m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/5UnjrG_N8hU'
     },
   })
@@ -418,7 +398,6 @@ await prisma.film.upsert({
       director: 'Robert Zemeckis',
       year: '1989',
       duration: '1h 48m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/MdENmefJRpw'
     },
   })
@@ -438,7 +417,6 @@ await prisma.film.upsert({
       director: 'Ilya Naishuller',
       year: '2021',
       duration: '1h 32m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/wZti8QKBWPo'
     },
   })
@@ -458,7 +436,6 @@ await prisma.film.upsert({
       director: 'Sam Mendes',
       year: '2012',
       duration: '2h 23m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/24mTIE4D9JM'
     },
   })
@@ -478,7 +455,6 @@ await prisma.film.upsert({
       director: 'Chad Stahelski',
       year: '2019',
       duration: '2014',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/2AUmvWm5ZDQ'
     },
   })
@@ -498,7 +474,6 @@ await prisma.film.upsert({
       director: 'James Wan',
       year: '2013',
       duration: '1h 52m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/ejMMn0t58Lc'
     },
   })
@@ -518,7 +493,6 @@ await prisma.film.upsert({
       director: 'Simon McQuoid',
       year: '2021',
       duration: '1h 50m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/jBa_aHwCbC4'
     },
   })
@@ -539,7 +513,6 @@ await prisma.film.upsert({
       director: 'Jon Favreau',
       year: '2008',
       duration: '2h 6m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/8hYlB38asDY'
     },
   })
@@ -559,7 +532,6 @@ await prisma.film.upsert({
       director: 'Peter Jackson',
       year: '2003',
       duration: '3h 21m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/o9-NreR2Ji0'
     },
   })
@@ -579,7 +551,6 @@ await prisma.film.upsert({
       director: 'Steven Spielberg',
       year: '1993',
       duration: '2h 7m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/QWBKEmWWL38'
     },
   })
@@ -599,7 +570,6 @@ await prisma.film.upsert({
       director: 'Todd Phillips',
       year: '2019',
       duration: '2h 2m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/xRjvmVaFHkk'
     },
   })
@@ -619,7 +589,6 @@ await prisma.film.upsert({
       director: 'Gary Ross',
       year: '2012',
       duration: '2h 22m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/mfmrPu43DF8'
     },
   })
@@ -639,7 +608,6 @@ await prisma.film.upsert({
       director: 'Wes Ball',
       year: '2014',
       duration: '1h 53m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/64-iSYVmMVY'
     },
   })
@@ -659,7 +627,6 @@ await prisma.film.upsert({
       director: 'Michael Bay',
       year: '2017',
       duration: '2h 34m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/6Vtf0MszgP8'
     },
   })
@@ -679,7 +646,6 @@ await prisma.film.upsert({
       director: 'Luc Besson',
       year: '1994',
       duration: '1h 51m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/aNQqoExfQsg'
     },
   })
@@ -699,7 +665,6 @@ await prisma.film.upsert({
       director: 'Joe Johnston',
       year: '1995',
       duration: '1h 44m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/3LPANjHlPxo'
     },
   })
@@ -719,7 +684,6 @@ await prisma.film.upsert({
       director: 'Brad Anderson',
       year: '2004',
       duration: '1h 41m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/H0fuHY4U1UA'
     },
   })
@@ -739,7 +703,6 @@ await prisma.film.upsert({
       director: 'James Cameron',
       year: '1991',
       duration: '2h 17m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/lwSysg9o7wE'
     },
   })
@@ -759,7 +722,6 @@ await prisma.film.upsert({
       director: 'George Miller',
       year: '2015',
       duration: '2h 1m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/MonFNCgK4WE'
     },
   })
@@ -779,7 +741,6 @@ await prisma.film.upsert({
       director: 'Christopher Nolan',
       year: '2014',
       duration: '2h 49m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/2LqzF5WauAw'
     },
   })
@@ -799,7 +760,6 @@ await prisma.film.upsert({
       director: 'Tim Burton',
       year: '2010',
       duration: '1h 48m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/LjMkNrX60mA'
     },
   })
@@ -819,7 +779,6 @@ await prisma.film.upsert({
       director: 'Gore Verbinski',
       year: '2006',
       duration: '2h 31m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/elqO-GNfStM'
     },
   })
@@ -839,7 +798,6 @@ await prisma.film.upsert({
       director: 'Morten Tyldum',
       year: '2014',
       duration: '1h 53m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/Fg85ggZSHMw'
     },
   })
@@ -859,7 +817,6 @@ await prisma.film.upsert({
       director: 'Brad Peyton',
       year: '2015',
       duration: '1h 54m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/Bz9e0PGSDeU'
     },
   })
@@ -879,7 +836,6 @@ await prisma.film.upsert({
       director: 'John Stevenson',
       year: '2008',
       duration: '1h 30m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/NRc-ze7Wrxw'
     },
   })
@@ -899,7 +855,6 @@ await prisma.film.upsert({
       director: 'Kyle Balda',
       year: '2015',
       duration: '1h 31m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/P9-FCC6I7u0'
     },
   })
@@ -919,7 +874,6 @@ await prisma.film.upsert({
       director: 'Jan de Bont',
       year: '1994',
       duration: '1h 56m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/8piqd2BWeGI'
     },
   })
@@ -939,7 +893,6 @@ await prisma.film.upsert({
       director: 'Francis Lawrence',
       year: '2005',
       duration: '2h 1m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/inKKja-rbXU'
     },
   })
@@ -959,7 +912,6 @@ await prisma.film.upsert({
       director: 'Alex Proyas',
       year: '2004',
       duration: '1h 55m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/J1NZJXo-Lso'
     },
   })
@@ -979,7 +931,6 @@ await prisma.film.upsert({
       director: 'David Leitch',
       year: '2018',
       duration: '1h 59m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/D86RtevtfrA'
     },
   })
@@ -999,7 +950,6 @@ await prisma.film.upsert({
       director: 'Barry Sonnenfeld',
       year: '2012',
       duration: '1h 46m',
-      stars: 0,
       trailer: 'https://www.youtube.com/embed/IyaFEBI_L24'
     },
   })

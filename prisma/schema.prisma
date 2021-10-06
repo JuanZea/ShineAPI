@@ -22,5 +22,4 @@ model Film {
   director      String?
   year          String?
   duration      String?
-  stars         Int
 }
