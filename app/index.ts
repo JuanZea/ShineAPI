@@ -21,6 +21,6 @@ app.use(morgan('dev'));
 app.get('/', (req: Request, res: Response) => res.sendFile(path.resolve('./resources/views/index.html')));
 app.use('/api', apiRoutes);
 
-app.listen(8000, () => {
-  console.log('Server on port 8000');
+app.listen(process.env.PORT || 8000, () => {
+  console.log(`Server on port ${process.env.PORT || 8000}`);
 });
