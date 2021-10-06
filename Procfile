@@ -1,0 +1,1 @@
+web: dist/app/index.js
