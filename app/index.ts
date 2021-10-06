@@ -5,7 +5,6 @@ import {Request, Response} from "express";
 
 if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config();
-  const morgan = require('morgan');
 }
 
 const path = require('path');
@@ -15,10 +14,6 @@ const app = express();
 app.use(cors());
 app.use(express.static(__dirname + '/public'));
 app.use(express.json());
-
-if (process.env.NODE_ENV !== 'production') {
-  app.use(morgan('dev'));
-}
 
 // Routes
 app.get('/', (req: Request, res: Response) => res.sendFile(path.resolve('./resources/views/index.html')));
